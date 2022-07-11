@@ -15,6 +15,7 @@
 		11FA4FD3287C32990097DA37 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FD2287C32990097DA37 /* Location.swift */; };
 		11FA4FD6287C33D90097DA37 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FD5287C33D90097DA37 /* LocationsView.swift */; };
 		11FA4FD8287C35C20097DA37 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FD7287C35C20097DA37 /* LocationsViewModel.swift */; };
+		11FA4FDA287C3CFB0097DA37 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FD9287C3CFB0097DA37 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		11FA4FD2287C32990097DA37 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		11FA4FD5287C33D90097DA37 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		11FA4FD7287C35C20097DA37 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		11FA4FD9287C3CFB0097DA37 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				11FA4FD5287C33D90097DA37 /* LocationsView.swift */,
+				11FA4FD9287C3CFB0097DA37 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11FA4FC0287C31460097DA37 /* ContentView.swift in Sources */,
+				11FA4FDA287C3CFB0097DA37 /* LocationsListView.swift in Sources */,
 				11FA4FD8287C35C20097DA37 /* LocationsViewModel.swift in Sources */,
 				11FA4FBE287C31460097DA37 /* armchair_touristApp.swift in Sources */,
 				11FA4FD6287C33D90097DA37 /* LocationsView.swift in Sources */,
