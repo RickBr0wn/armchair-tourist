@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct armchair_touristApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @StateObject private var vm = LocationsViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      LocationsView()
+        .environmentObject(vm)
     }
+  }
 }
