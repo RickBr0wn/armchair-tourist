@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		11FA4FBE287C31460097DA37 /* armchair_touristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FBD287C31460097DA37 /* armchair_touristApp.swift */; };
 		11FA4FC0287C31460097DA37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FBF287C31460097DA37 /* ContentView.swift */; };
-		11FA4FC2287C31480097DA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FA4FC1287C31480097DA37 /* Assets.xcassets */; };
 		11FA4FC5287C31480097DA37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FA4FC4287C31480097DA37 /* Preview Assets.xcassets */; };
+		11FA4FCC287C31E60097DA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FA4FCB287C31E60097DA37 /* Assets.xcassets */; };
+		11FA4FCE287C31F20097DA37 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FCD287C31F20097DA37 /* LocationsDataService.swift */; };
+		11FA4FD3287C32990097DA37 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA4FD2287C32990097DA37 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11FA4FBA287C31460097DA37 /* armchair-tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "armchair-tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FA4FBD287C31460097DA37 /* armchair_touristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = armchair_touristApp.swift; sourceTree = "<group>"; };
 		11FA4FBF287C31460097DA37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		11FA4FC1287C31480097DA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11FA4FC4287C31480097DA37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11FA4FCB287C31E60097DA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FA4FCD287C31F20097DA37 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		11FA4FD2287C32990097DA37 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,11 @@
 			children = (
 				11FA4FBD287C31460097DA37 /* armchair_touristApp.swift */,
 				11FA4FBF287C31460097DA37 /* ContentView.swift */,
-				11FA4FC1287C31480097DA37 /* Assets.xcassets */,
+				11FA4FD4287C33280097DA37 /* DataServices */,
+				11FA4FD0287C32690097DA37 /* Views */,
+				11FA4FD1287C32720097DA37 /* ViewModels */,
+				11FA4FCF287C325E0097DA37 /* Models */,
+				11FA4FCB287C31E60097DA37 /* Assets.xcassets */,
 				11FA4FC3287C31480097DA37 /* Preview Content */,
 			);
 			path = "armchair-tourist";
@@ -65,6 +73,36 @@
 				11FA4FC4287C31480097DA37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11FA4FCF287C325E0097DA37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11FA4FD2287C32990097DA37 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11FA4FD0287C32690097DA37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11FA4FD1287C32720097DA37 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11FA4FD4287C33280097DA37 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				11FA4FCD287C31F20097DA37 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FA4FCC287C31E60097DA37 /* Assets.xcassets in Resources */,
 				11FA4FC5287C31480097DA37 /* Preview Assets.xcassets in Resources */,
-				11FA4FC2287C31480097DA37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +177,8 @@
 			files = (
 				11FA4FC0287C31460097DA37 /* ContentView.swift in Sources */,
 				11FA4FBE287C31460097DA37 /* armchair_touristApp.swift in Sources */,
+				11FA4FD3287C32990097DA37 /* Location.swift in Sources */,
+				11FA4FCE287C31F20097DA37 /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
